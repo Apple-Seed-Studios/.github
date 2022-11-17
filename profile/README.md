@@ -109,3 +109,30 @@ We are using organization on Github.
 Utilize a `main` branch to be the source of thrugh, as well as a `dev-branch` that'll we'll pull individual `feature branches`. PRs will be from `features branches` to the `dev-branch` and when ready for production, to the `main` branch. Ensure we are using test driven development for our entire project.
 
 We'll utilize atomic commits to share and create a history of what we're currently working on.
+
+## User Stories  
+
+1. To do list 
+As a user I want to keep track of things that I need to do.
+Create a form to add and keep track of the user's tasks to complete.
+Tasks should be able to be added, deleted, and completed.
+
+2. Time feature 
+As a user I want to ensure that I don't overwork myself, while still being productive. 
+App should have a pomodoro timer that sets a work period, and a rest period.
+User should be able to set the time of the pomodoro, and the pomodoro should alert when time is up.
+
+3. Profile  
+As a user I want my todo list and time preferences to persist, and be secure.
+App should require sign in/up, and save user preferences.
+Backend should support requests with basic auth, and bearer auth.
+
+4. Time tracking  
+As a user I want to keep track of the time that I have spent working.  
+App should save time that a user has spent working over the time they have used the application.  
+Once a timer is started then stopped, that amount of time should be saved and sent to the database.  
+
+5. List organization  
+As a user I want my to do list to be organized.  
+App should support tags for the user to filter by.  
+Once a task is created with a tag, that tag should be stored in the item object.
